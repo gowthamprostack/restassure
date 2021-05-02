@@ -15,25 +15,25 @@ import utilities.Excelread;
 
 public class TC001_Get_whether extends Baseclass {
 	
-	@Test
-	void get()
+	@Test(dataProvider = "providelogindata")
+	void get(String name,String path)
 	{
 		
-		//Response=httprequest.request(Method.GET,path);
+		Response=httprequest.request(Method.GET,path);
 
 		System.out.println("gfkjfjdffd");
     }
 	
 
-/*@DataProvider(name="providelogindata")
+@DataProvider(name="providelogindata")
 public Object[][] logindata() throws Exception
 {
-	Object[][] a =Excelread.getTableArray("C:\\Users\\Dell\\Desktop\\payload.xlsx","get");
+	Object[][] a =Excelread.getTableArray(System.getProperty("user.dir")+"\\data\\payload.xlsx","get");
    
     
    return a;
 
-}*/
+}
 
 
 }
