@@ -1,4 +1,4 @@
-# Created at 2021-05-02T01:41:11.929
+# Created at 2021-05-02T02:01:19.671
 Boot Manifest-JAR contains absolute paths in classpath 'D:\restassured\restassuredautomation\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 

@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27" started-at="2021-05-02T08:41:14Z" finished-at="2021-05-02T08:41:14Z">
+  <suite name="Suite" duration-ms="4679" started-at="2021-05-02T09:01:21Z" finished-at="2021-05-02T09:01:26Z">
     <groups>
     </groups>
-    <test name="test2" duration-ms="27" started-at="2021-05-02T08:41:14Z" finished-at="2021-05-02T08:41:14Z">
+    <test name="test2" duration-ms="4679" started-at="2021-05-02T09:01:21Z" finished-at="2021-05-02T09:01:26Z">
       <class name="data.TC001_Get_whether">
-        <test-method status="PASS" signature="settingBaseURI()[pri:0, instance:data.TC001_Get_whether@13c78c0b]" name="settingBaseURI" is-config="true" duration-ms="981" started-at="2021-05-02T08:41:13Z" finished-at="2021-05-02T08:41:14Z">
+        <test-method status="PASS" signature="settingBaseURI()[pri:0, instance:data.TC001_Get_whether@3dd3bcd]" name="settingBaseURI" is-config="true" duration-ms="731" started-at="2021-05-02T09:01:20Z" finished-at="2021-05-02T09:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingBaseURI -->
-        <test-method status="PASS" signature="get()[pri:0, instance:data.TC001_Get_whether@13c78c0b]" name="get" duration-ms="2" started-at="2021-05-02T08:41:14Z" finished-at="2021-05-02T08:41:14Z">
+        <test-method status="PASS" signature="get(java.lang.String, java.lang.String)[pri:0, instance:data.TC001_Get_whether@3dd3bcd]" name="get" duration-ms="2973" started-at="2021-05-02T09:01:22Z" data-provider="providelogindata" finished-at="2021-05-02T09:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/users/2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method status="PASS" signature="get(java.lang.String, java.lang.String)[pri:0, instance:data.TC001_Get_whether@3dd3bcd]" name="get" duration-ms="481" started-at="2021-05-02T09:01:25Z" data-provider="providelogindata" finished-at="2021-05-02T09:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/users/2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method status="PASS" signature="get(java.lang.String, java.lang.String)[pri:0, instance:data.TC001_Get_whether@3dd3bcd]" name="get" duration-ms="227" started-at="2021-05-02T09:01:25Z" data-provider="providelogindata" finished-at="2021-05-02T09:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/users/2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[get]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
