@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="PL_report_URL" value="https://nr-reports.incred.com/"/>
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="data.TC001_Get_whether">
+        <methods>
+          <include name="get"/>
+          <include name="settingBaseURI"/>
+        </methods>
+      </class> <!-- data.TC001_Get_whether -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
