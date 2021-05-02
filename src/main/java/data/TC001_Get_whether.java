@@ -22,6 +22,11 @@ public class TC001_Get_whether extends Baseclass {
 		Response=httprequest.request(Method.GET,path);
 
 		System.out.println("gfkjfjdffd");
+		
+		System.out.println("gfkjfjdffd");
+System.out.println("gfkjfjdffd");
+		
+		System.out.println("gfkjfjdffd");
     }
 	
 
